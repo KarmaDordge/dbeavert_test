@@ -1,6 +1,6 @@
 -- raw_ozon.report_return_commision_02_lk source
 
-CREATE OR REPLACE VIEW public._02_lk
+CREATE VIEW public._02_lk
 AS WITH pre_fbo AS (
          SELECT fbo_list.client_id,
             fbo_list.load_dttm,
